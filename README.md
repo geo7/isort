@@ -528,7 +528,7 @@ If you just want to display warnings, but allow the commit to happen
 anyway, call `git_hook` without the strict parameter. If you want to
 display warnings, but not also fix the code, call `git_hook` without the
 modify parameter.
-The `lazy` argument is to support users who are "lazy" to add files
+The `lazy` argument is to support users who are too "lazy" to add files
 individually to the index and tend to use `git commit -a` instead.
 Set it to `True` to ensure all tracked files are properly isorted,
 leave it out or set it to `False` to check only files added to your
